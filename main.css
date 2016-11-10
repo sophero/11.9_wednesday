@@ -4,25 +4,86 @@ body {
 }
 
 .wrapper {
-	width: 80%;
+	width: 100%;
+	border: 1px solid black;
+	float: right;
 	margin: 0 auto;
 }
 
 .header {
 	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.name {
+	color: #0088cc;
+	font-family: Georgia;
+	font-size: 50px;
+	padding: 5px 10px 5px 10px;
+}
+
+.contact-details {
+	list-style-type: none;
+	float: left;
+}
+
+#email-address {
+	color: #0066cc;
+	font-size: 18px;
+
+}
+
+.portfolio-container {
+	width: 95%;
+	margin: 10px auto;
 }
 
 /*Mobile phone*/
 @media (max-width: 480px){
-
+	.portfolio-item {
+		width: 90%;
+		margin: 2px auto;
+	}
+	.portfolio-item img {
+		width: 100%;
+	}
+	.about-me {
+		width: 92%;
+		margin: 10px auto;
+	}
 }
 
 /*Tablet*/
 @media (min-width: 481px) and (max-width: 991px){
-
+	.portfolio-item {
+		width: 50%;
+		margin: 2px 0;
+		/*padding: 2px 1px;*/
+		float: left;
+	}
+	.portfolio-item img {
+		width: 90%;
+	}
+	.about-me {
+		width: 92%;
+		margin: 10px auto;
+	}
 }
 
 /*Desktop*/
 @media (min-width: 992px){
-
+	.portfolio-item {
+		float: left;
+		width: 32%;
+		margin: 2px auto;
+		padding: ;
+	}
+	.portfolio-item img {
+		width: 100%;
+	}
+	.about-me {
+		width: 95%;
+		margin: 10px auto;
+	}
 }
