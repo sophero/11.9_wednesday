@@ -21,11 +21,12 @@ body {
 	font-family: Georgia;
 	font-size: 50px;
 	padding: 5px 10px 5px 10px;
+	display: inline-block;
 }
 
 .contact-details {
 	list-style-type: none;
-	float: left;
+	float: right;
 }
 
 #email-address {
